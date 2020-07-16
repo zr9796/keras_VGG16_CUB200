@@ -34,11 +34,12 @@ train_datagen = ImageDataGenerator(
 batch_size = 64
 step_per_epoch = TRAIN_NUM    #每迭代一次遍历所有训练集图像
 SGD(lr=1e-4,momentum=0.9,decay=0.0005)
+```
 ### 1. epoch = 30 keep_prob = 1 只训练全连接层，冻结前面的参数
 ### 2. epoch = 35 keep_prob = 0.5 解冻，训练所有参数
 ### 3. epoch = 20 keep_prob = 0.7 训练所有参数
 ### 4. epoch = 20 keep_prob = 0.9 训练所有参数
-```
+
 
 ## 我的最终结果：
 test_acc：69.99
