@@ -48,7 +48,7 @@ SGD(lr=1e-4,momentum=0.9,decay=0.0005)
 
 ## 我的最终结果：
 test_acc：69.99
-```python
+```
 Top-1 cls error: 30.01
 Top-5 cls error:  8.13
 ```
